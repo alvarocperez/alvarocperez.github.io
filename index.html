@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,45 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My GitHub Page</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        /* Additional inline styles can be added here if needed */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f5f5f5;
-        }
-        .profile-container {
-            text-align: center;
-        }
-        .profile-img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            margin-bottom: 20px;
-        }
-        .profile-links {
-            display: flex;
-            justify-content: center;
-        }
-        .profile-links a {
-            color: #333;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-        /* Define other styles as needed */
-    </style>
 </head>
 <body>
-    <div class="profile-container">
-        <img class="profile-img" src="profile-picture.jpg" alt="Profile Picture">
-        <div class="profile-links">
-            <a href="https://www.linkedin.com/in/your-linkedin-profile">LinkedIn</a>
-            <a href="https://medium.com/@your-medium-profile">Medium</a>
+    <!-- Header -->
+    <div class="header">
+        <ul class="horizontal-menu">
+            <li><a href="#readlist">Read list</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <!-- Content -->
+    <div class="content">
+        <div class="profile-container">
+            <img class="profile-img" src="media/profile-picture.png" alt="Profile Picture">
+            <div class="about">
+                <div><span class="intro-a-text">&#x1F44B; Hey! my name is Álvaro! </span></div>
+                <div><p class="intro-b-text">I'm a Machine Learning engineer based in Madrid! </p></div>
+                <div><p class="intro-c-text">I have a passion for building systems and infrastructure tailored to the demands of machine learning and data operations.</p></div>
+                <div><p class="intro-c-text">I enjoy working on designing and implementing data-warehousing solutions, feature stores, <br>
+                    and real-time systems with stream data processing capabilities. I also thrive on working with Deep Learning/Machine Learning, distributed systems, <br>
+                    SQL and NoSQL databases, Docker, Kubernetes, GitOps methodologies, crafting low-latency backends, and architecting scalable infrastructures <br>
+                    to support model serving.</p></div>
+                <div><p class="intro-c-text">If you appreciate my work and would like to have my assistance with your team or project, <b>feel free to reach out to me.</b></p>
+            </div>
+        </div>
+        <hr class="solid">
+        <!-- Footer -->
+        <div class="footer">
+            <a href="https://github.com/alvarocperez"><img src="media/github.png" alt="GitHub" width="24px"></a>
+            <a href="https://es.linkedin.com/in/alvarocperez"><img src="media/linkedin.png" alt="LinkedIn"></a>
+            <a href="https://medium.com/@ac28042"><img src="media/medium.png" alt="Medium" width="24px"></a>
         </div>
     </div>
 </body>
