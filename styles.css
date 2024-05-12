@@ -115,3 +115,51 @@ hr.solid {
         .event-link:hover {
             text-decoration: underline;
         }
+
+.reading-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+
+}
+
+.reading-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: #333;
+    transition: box-shadow 0.3s ease;
+    overflow: hidden; /* Prevents inner content from affecting outer card size */
+}
+
+.reading-card:hover {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.reading-card > div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.reading-card h2 {
+    margin-bottom: 10px;
+}
+
+.reading-card p {
+    margin-bottom: 15px;
+}
+
+.read-more {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
